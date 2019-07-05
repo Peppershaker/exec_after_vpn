@@ -1,7 +1,6 @@
-# Run Custom Scripts After Establishing VPN Connection
 ![logo](https://user-images.githubusercontent.com/15576531/60744727-3c9d1c80-9f45-11e9-84a6-dd54941d293d.jpg)
-
-**Note** Currently this only works with  NordVPN, and you must have an active subscription
+# Run Custom Scripts After Establishing VPN Connection
+**Note:** Currently this only works with  NordVPN, and you must have an active subscription
 
 Allows for execution of arbitrary scripts after the OpenVPN connection has been established with the server.
 
