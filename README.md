@@ -20,5 +20,14 @@ Next, build the docker image and tag it a name you'd like. I'm going to use exec
 Now you are ready to run the image you just built. Note in order for OpenVPN to create the tun device you would have to run the container as `--previlliged`
 > docker run --rm --previlliged exec_after_vpn
 
+#### Python Script Dependencies
+The container runs python 3.6; however, if you have dependencies, specify them in the `requirements.txt` file in `docker_scripts` folder prior to building the container.
+
+#### Bash Script Dependencies
+Append the below line in `Dockerfile` to install the binaries you need
+```
+apt-get install -y --force-yes openvpn wget unzip curl procps install_more_here && \
+```
+
 # Author
 * **Victor Xu**
