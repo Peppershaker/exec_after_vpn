@@ -1,10 +1,11 @@
+## Run Custom Scripts After Establishing VPN Connection
 ![logo](https://user-images.githubusercontent.com/15576531/60744727-3c9d1c80-9f45-11e9-84a6-dd54941d293d.jpg)
-# Run Custom Scripts After Establishing VPN Connection
+
 **Note:** Currently this only works with  NordVPN, and you must have an active subscription
 
 Allows for execution of arbitrary scripts after the OpenVPN connection has been established with the server.
 
-# Quick Start
+## Quick Start
 Update your NordVPN username and password in the `openvpn.sh` file.
 
 Next, replace `helper.sh` with your own script, but keep the name as `helper.sh`. 
@@ -29,5 +30,8 @@ Append the line below in `Dockerfile` to install the binaries you need
 apt-get install -y --force-yes openvpn wget unzip curl procps install_more_here && \
 ```
 
-# Author
+## Author
 * **Victor Xu**
+
+## License
+MIT
