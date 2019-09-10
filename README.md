@@ -25,9 +25,9 @@ Now you are ready to run the image you just built. Note in order for OpenVPN to 
 The container runs python 3.6; however, if you have dependencies, specify them in the `requirements.txt` file in `docker_scripts` folder prior to building the container.
 
 #### Bash Script Dependencies
-Append the line below in `Dockerfile` to install the binaries you need
+Append the line below in `Dockerfile` to install the binaries you need.
 ```
-apt-get install -y --force-yes openvpn wget unzip curl procps install_more_here && \
+apt-get install -y --force-yes openvpn wget unzip curl procps ANYTHING_ELSE_YOU_NEED && \
 ```
 
 ## Author
